@@ -1,5 +1,5 @@
-import React from "react"
-import Logo from "../assets/curis_loogo.png"
+import React from "react";
+import Logo from "../assets/curis_loogo.png";
 
 function Navbar() {
   return (
@@ -9,5 +9,7 @@ function Navbar() {
       </div>
       <div className = "rightSide"></div>
     </div>
-  )
+  );
 }
+
+export default Navbar;
