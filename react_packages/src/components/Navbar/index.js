@@ -6,7 +6,8 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>curis</NavLogo>
+          <NavLogo to = '/'>curis</NavLogo>
+          <img src = "../assets/curis_loogo.png" />
         </NavbarContainer>
       </Nav>
     </>
