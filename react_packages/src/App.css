@@ -4,3 +4,17 @@
   padding: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+.parallax_content {
+  background-color: #d0eaf3d4;
+  padding: 10% 25%;
+  margin-top: 680px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.hero {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
