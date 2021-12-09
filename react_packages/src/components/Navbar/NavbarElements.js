@@ -32,11 +32,11 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(LinkR)`
   justify-self: flex-start;
   cursor: pointer;
-  align-items: center;
-  margin-left: 0;
-  margin-top: 0;
+  position: absolute;
+  left: 5%;
+  top: 0;
   width: 80px;
-  height: 80px;
+  /* background-color: red; */
 `;
 
 //hamburger

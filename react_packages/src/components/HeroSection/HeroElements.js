@@ -18,14 +18,6 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100%;
   overflow: hidden;
+  /* background-color: red; */
 `;
-
-
-export const img = styled.image`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-`

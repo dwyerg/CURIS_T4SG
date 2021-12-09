@@ -8,8 +8,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to = '/'>
-            <img src={logo} alt= "CURIS Logo" />
+          <NavLogo to = '/' style={{ backgroundImage:`url(${logo})`, backgroundRepeat:'no-repeat', height: 800, backgroundSize: 'contain' }}>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

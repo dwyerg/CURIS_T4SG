@@ -5,8 +5,7 @@ import { HeroContainer, HeroBg, img} from './HeroElements';
 const HeroSection = () => {
   return (
     <HeroContainer>
-      <HeroBg>
-        <img src={background} alt= "CURIS Team" />
+      <HeroBg style={{ backgroundImage:`url(${background})`, backgroundRepeat:'no-repeat', height: 800, backgroundSize: 'contain' }}>
       </HeroBg>
     </HeroContainer>
   );
