@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
-import HeroSection from '../components/HeroSection';
+import ParallaxQuote from '../components/ParallaxQuote';
+import { Parallax } from 'react-parallax';
+import bgImage from '../assets/home_bg.png'
 
 const Home = () => {
 
@@ -15,12 +17,8 @@ const Home = () => {
   return (
     <>
       <Navbar toggle={toggle} />
-      <div className="hero">
-        <HeroSection/>
-      </div>
-      <div className = "parallax_content">
-        <p>"Our mission is to advocate <b>to improve</b> public health in the local community through education, outreach, and practical solutions."</p>
-      </div>
+      <ParallaxQuote />
+      <div class = "home_header"><h2>Our Purpose</h2></div>
     </>
   );
 };

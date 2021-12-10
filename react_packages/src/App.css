@@ -5,16 +5,12 @@
   font-family: 'Encode Sans Expanded', sans-serif;
 }
 
-.parallax_content {
-  background-color: #d0eaf3d4;
-  padding: 10% 25%;
-  margin-top: 680px;
-  font-size: 20pt;
+.home_header {
   text-align: center;
+  font-size: 24pt;
+  padding: 40px;
 }
 
-.hero {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
+.new_text {
+  height: 100vh;
 }
