@@ -6,7 +6,7 @@ import bgImage from '../../assets/home_bg.png'
 const ParallaxQuote = () => {
   return (
     <>
-      <Parallax bgImage={bgImage} strength={800}>
+      <Parallax bgImage={bgImage} strength={500}>
         <div class = "new_text">
           <p>  </p>
         </div>
