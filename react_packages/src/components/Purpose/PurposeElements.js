@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const PurposeImg = styled.div`
-  background-color: red;
-  font-size: 20pt;
+  /* background-color: red; */
   text-align: center;
-  height: 200px;
-  width: 300px;
+  font-size: 14pt;
+  height: 300px;
   overflow: hidden;
+  img {
+    width: 400px;
+  }
 `;
 
 export const AllPurposeImgs = styled.div`

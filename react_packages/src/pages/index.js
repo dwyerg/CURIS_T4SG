@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import ParallaxQuote from '../components/ParallaxQuote';
 import Purpose from '../components/Purpose';
+import Team from '../components/homeComponents/Team';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <ParallaxQuote />
       <Purpose />
+      <Team />
     </>
   );
 };
