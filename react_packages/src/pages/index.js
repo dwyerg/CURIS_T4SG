@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import ParallaxQuote from '../components/ParallaxQuote';
 import Purpose from '../components/Purpose';
 import Team from '../components/homeComponents/Team';
+import ImageSlider from '../components/homeComponents/Slider/ImgSlider.js'
+import { SliderData } from '../components/homeComponents/Slider/SliderData.js';
 
 const Home = () => {
 
@@ -20,6 +22,7 @@ const Home = () => {
       <ParallaxQuote />
       <Purpose />
       <Team />
+      <ImageSlider slides={SliderData} />
     </>
   );
 };
