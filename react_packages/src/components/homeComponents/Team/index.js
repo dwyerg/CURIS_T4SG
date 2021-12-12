@@ -8,7 +8,7 @@ import aidImg from '../../../assets/aid.jpg'
 const Team = () => {
   return (
     <>
-      <div class = "home_header"><h2>Meet the Team</h2></div>
+      <div className = "home_header"><h2>Meet the Team</h2></div>
       <AllTeamImgs>
         <TeamImg>
           {/*Photo by Kate Kalvach on Unsplash*/}

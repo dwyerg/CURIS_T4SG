@@ -12,7 +12,7 @@ const ParallaxQuote = () => {
         </div>
       </Parallax>
 
-      <QuoteContainer class = "parallax_content">
+      <QuoteContainer className = "parallax_content">
         <p>“Our mission is to advocate <b>to improve</b> public health in the local community through education, outreach, and practical solutions.”</p>
       </QuoteContainer>
     </>

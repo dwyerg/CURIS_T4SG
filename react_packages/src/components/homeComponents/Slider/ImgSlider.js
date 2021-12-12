@@ -21,7 +21,7 @@ const ImageSlider = ({ slides }) => {
       <FaChevronLeft className='left-arrow' />
       <FaChevronRight className='right-arrow' onCLick={nextSlide} />
       {SliderData.map((slide, index) => {
-        return <img src={slide.img} alt = 'Team images' className='slide_image'/>
+        return <img src={slide.image} alt = 'Team images' className='slide_image'/>
       })}
     </section>
   );
