@@ -10,6 +10,10 @@ const ImageSlider = ({ slides }) => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  }
+
   console.log(current);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -18,10 +22,14 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className='slider'>
-      <FaChevronLeft className='left-arrow' />
-      <FaChevronRight className='right-arrow' onCLick={nextSlide} />
+      <FaChevronLeft className='left-arrow' onClick={prevSlide} />
+      <FaChevronRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
-        return <img src={slide.image} alt = 'Team images' className='slide_image'/>
+        return (
+          <div className={index === current ? 'slide active' : 'slide'} key={index}>
+            {index === current && (<img src={slide.image} alt = 'Team images' className='slide_image'/>)}
+          </div>
+        )
       })}
     </section>
   );

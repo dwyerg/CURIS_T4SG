@@ -7,7 +7,7 @@ const ParallaxQuote = () => {
   return (
     <>
       <Parallax bgImage={bgImage} strength={500} alt='Curis Team'>
-        <div class = "new_text">
+        <div className = "new_text">
           <p>  </p>
         </div>
       </Parallax>
