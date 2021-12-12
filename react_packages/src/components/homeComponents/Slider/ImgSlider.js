@@ -21,6 +21,8 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
+    <>
+    <div className = "home_header"><h2>Meet the Team</h2></div>
     <section className='slider'>
       <FaChevronLeft className='left-arrow' onClick={prevSlide} />
       <FaChevronRight className='right-arrow' onClick={nextSlide} />
@@ -32,6 +34,7 @@ const ImageSlider = ({ slides }) => {
         )
       })}
     </section>
+    </>
   );
 };
 
