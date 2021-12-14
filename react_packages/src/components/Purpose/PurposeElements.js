@@ -4,10 +4,10 @@ export const PurposeImg = styled.div`
   /* background-color: red; */
   text-align: center;
   font-size: 14pt;
-  height: 300px;
+  height: 350px;
   overflow: hidden;
   img {
-    width: 400px;
+    width: 250px;
   }
 `;
 
