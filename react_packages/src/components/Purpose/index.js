@@ -15,17 +15,17 @@ const Purpose = () => {
         <PurposeImg>
           {/*Photo by Kate Kalvach on Unsplash*/}
           <img src = {advocacyImg} alt='People sit in a group' />
-          <p>Advocacy</p>
+          <p>Perseverance</p>
         </PurposeImg>
         <PurposeImg>
           {/*Photo by Hannah Busing on Unsplash*/}
           <img src = {supportImg} alt='Hands piled together in middle of group' />
-          <p>Support</p>
+          <p>Compassion</p>
         </PurposeImg>
         <PurposeImg>
           {/*Photo by Austin Kehmeier on Unsplash*/}
           <img src = {aidImg} alt='Two hands clasped from opposite sides.' />
-          <p>Aid</p>
+          <p>Open-mindedness</p>
         </PurposeImg>
       </AllPurposeImgs>
     </>
