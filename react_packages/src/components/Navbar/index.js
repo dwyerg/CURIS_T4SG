@@ -1,29 +1,34 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
 import logo from '../../assets/curis_loogo.png';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavBtn, NavBtnLink} from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
 
-const Navbar = ({ toggle }) => {
+// import Members from '../../pages/Members';
+
+const Navbar = () => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to = '/' style={{ backgroundImage:`url(${logo})`, backgroundRepeat:'no-repeat', height: 800, backgroundSize: 'contain' }}>
+
+          <NavLogo to='/' style={{ backgroundImage:`url(${logo})`, backgroundRepeat:'no-repeat', height: 800, backgroundSize: 'contain' }}>
           </NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
+
           <NavMenu>
+
             <NavBtn>
-              <NavBtnLink to='/learn_more'>Learn More</NavBtnLink>
+              <NavBtnLink to='/learnMore'>Learn More</NavBtnLink>
             </NavBtn>
+
+              <NavBtn>
+                <NavBtnLink to='projects'>Our Projects</NavBtnLink>
+              </NavBtn>
+
             <NavBtn>
-              <NavBtnLink to='/projects'>Our Projects</NavBtnLink>
+              <NavBtnLink to='members'>Meet the Members</NavBtnLink>
             </NavBtn>
-            <NavBtn>
-              <NavBtnLink to='/team'>Meet the Members</NavBtnLink>
-            </NavBtn>
+
           </NavMenu>
+
         </NavbarContainer>
       </Nav>
     </>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import ParallaxQuote from '../components/ParallaxQuote';
-import Purpose from '../components/Purpose';
+import Purpose2 from '../components/Purpose2';
 import ImageSlider from '../components/homeComponents/Slider/ImgSlider.js'
 import { SliderData } from '../components/homeComponents/Slider/SliderData.js';
 
@@ -17,9 +17,8 @@ const Home = () => {
 
   return (
     <>
-      <Navbar toggle={toggle} />
       <ParallaxQuote />
-      <Purpose />
+      <Purpose2 />
       <ImageSlider slides={SliderData} />
     </>
   );
