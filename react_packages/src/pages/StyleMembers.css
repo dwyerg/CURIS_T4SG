@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-size: 28pt;
+  margin: 25px 0 50px 0;
+  padding: 20px;
+  border-bottom: 3px solid black;
+  width: 80%;
+}
+
+h3 {
+  float: right;
+  font-size: 36pt;
+  margin: 25px 25% 100px 0;
+  color: #1c4587;
+}
+
+centerAllCont {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgAndName {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgAndName:hover {
+  background-color: #eaf4f8;
+}
+
+.imgAndName img {
+  background-color: lightblue;
+  margin: 25px;
+}
+
+h4 {
+  font-size: 24pt;
+  color: #1c4587;
+  text-align: center;
+}
+
+h5 {
+  font-size: 20pt;
+  color: #88b3e1;
+  text-align: center;
+  margin-bottom: 10px;
+}
