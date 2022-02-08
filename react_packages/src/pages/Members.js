@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './StyleMembers.css';
 
 import generalMembers from '../assets/gen_members.PNG';
@@ -9,7 +9,13 @@ import geeta from '../assets/geeta.PNG';
 import nishika from '../assets/nishika.PNG';
 import claire from '../assets/claire.PNG';
 
-const Members = () => {
+const Members = ({children, src, alt, Wrapper = 'div'}) => {
+
+  const [ isOpen, setIsOpen ] = useState(false);
+
+  const toggleIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
@@ -18,16 +24,40 @@ const Members = () => {
         <h1>Meet Our Executive Board</h1>
 
         <div className="grid">
-          <div className="imgAndName">
+          <div className="imgAndName" onClick={toggleIsOpen} style={{ cursor: 'pointer' }} >
+
+          <Wrapper style={{
+    					position: 'fixed',
+    					top: '0',
+    					left: '0',
+              backgroundColor: '#d2ebf4',
+              width: '100vw',
+              height: '100vh',
+              paddingLeft: '10%',
+              paddingTop: '5%'
+    				}}>
+              {children}
+              {isOpen ?
+                <div onClick={toggleIsOpen}>
+                  <img src={amy} alt="Amy, a Co-President of CURIS" />
+                  <h4 style={{ color: 'white', float: 'right' }}>Amy</h4>
+                  <h5>Co-President</h5>
+                </div>
+                : null}
+            </Wrapper>
+
             <img src={amy} alt="Amy, a Co-President of CURIS" />
             <h4>Amy</h4>
             <h5>Co-President</h5>
+
           </div>
+
           <div className="imgAndName">
             <img src={emily} alt="Emily, a Co-President of CURIS" />
             <h4>Emily</h4>
             <h5>Co-President</h5>
           </div>
+
           <div className="imgAndName">
             <img src={marilyn} alt="Marilyn, the Vice-President of CURIS" />
             <h4>Marilyn</h4>
