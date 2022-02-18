@@ -7,6 +7,7 @@ import Home from './pages/index';
 import Members from './pages/Members';
 import Projects from './pages/projects';
 import LearnMore from './pages/learnMore';
+import FAQ from './pages/Faq';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/learnmore" element={<LearnMore />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </Router>
   );

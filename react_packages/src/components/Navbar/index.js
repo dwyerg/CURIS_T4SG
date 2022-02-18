@@ -27,6 +27,10 @@ const Navbar = () => {
               <NavBtnLink to='members'>Meet the Members</NavBtnLink>
             </NavBtn>
 
+            <NavBtn>
+              <NavBtnLink to='FAQ'>FAQ</NavBtnLink>
+            </NavBtn>
+
           </NavMenu>
 
         </NavbarContainer>
