@@ -1,9 +1,9 @@
-import './App.css';
+import './projects.css';
 import React from 'react';
-import App from './App';
+//import App from './App';
 import ReactDOM from 'react-dom'
-import whi from './whi.png'
-import safehouse from './safehouse.jpeg'
+import whi from '../assets/whi.png'
+import safehouse from '../assets/safehouse.jpeg'
 
 const projectsList = [
   {index: 0, imgUrl: whi, description: "The Washtenaw Health Initiative (WHI) is a \"voluntary collaboration between more than 200 individual and organizational stakeholders dedicated to improving the health of low-income, uninsured, and under-insured populations across Washtenaw County, Michigan.\""},
@@ -30,7 +30,7 @@ class Collapsible extends React.Component {
   }
 
   componentDidUpdate(){
-      
+
   }
 
   render() {
@@ -94,4 +94,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-export default App;
+export default Test;

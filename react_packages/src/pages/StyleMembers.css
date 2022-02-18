@@ -55,3 +55,47 @@ h5 {
   text-align: center;
   margin-bottom: 10px;
 }
+
+.blueBg {
+  background-color: #d2ebf4;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.innerBg {
+  background-color: #e7f4f9;
+  width: 70vw;
+  height: 75vh;
+  position: fixed;
+  left: 15%;
+  top: 15%;
+  z-index: 3;
+}
+
+.bigImg {
+  z-index: 3;
+  position: fixed;
+  top: 12%;
+  right: 52%;
+  width: 300px;
+}
+
+.bigName {
+  z-index: 3;
+  position: fixed;
+  top: 70%;
+  left: 28%;
+}
+
+.sideText {
+  width: 300px;
+  color: #1c4587;
+  position: fixed;
+  z-index: 4;
+  top: 18%;
+  left: 52%;
+}

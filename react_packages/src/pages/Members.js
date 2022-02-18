@@ -11,10 +11,15 @@ import claire from '../assets/claire.PNG';
 
 const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
-  const [ isOpen, setIsOpen ] = useState(false);
+  const [ isOpen, setIsOpen,
+          isOpen2 ] = useState(false);
 
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleIsOpen2 = () => {
+    setIsOpen(!isOpen2);
   };
 
   return (
@@ -24,24 +29,26 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
         <h1>Meet Our Executive Board</h1>
 
         <div className="grid">
-          <div className="imgAndName" onClick={toggleIsOpen} style={{ cursor: 'pointer' }} >
 
-          <Wrapper style={{
-    					position: 'fixed',
-    					top: '0',
-    					left: '0',
-              backgroundColor: '#d2ebf4',
-              width: '100vw',
-              height: '100vh',
-              paddingLeft: '10%',
-              paddingTop: '5%'
-    				}}>
+          <div className="imgAndName" onClick={toggleIsOpen} style={{ cursor: 'pointer' }} >
+          <Wrapper>
               {children}
               {isOpen ?
                 <div onClick={toggleIsOpen}>
-                  <img src={amy} alt="Amy, a Co-President of CURIS" />
-                  <h4 style={{ color: 'white', float: 'right' }}>Amy</h4>
-                  <h5>Co-President</h5>
+                  <>
+
+                  <div className="blueBg"></div>
+                  <div className="innerBg"></div>
+
+                  <img src={amy} alt="Amy, a Co-President of CURIS" className="bigImg"/>
+                  <div className="bigName">
+                    <h4>Amy</h4>
+                    <h5>Co-President</h5>
+                  </div>
+
+                  <p className="sideText">Amy is a senior from Ann Arbor, MI double majoring in Neuroscience and Spanish. She hopes to become a physician and work with underserved populations after graduating and going to medical school. Amy joined CURIS in order to learn about public health issues and better understand the unique obstacles that her future patients will face. Outside of CURIS, Amy does neuroscience research and volunteers as a tutor. She also enjoys playing the piano in her free time.</p>
+
+                  </>
                 </div>
                 : null}
             </Wrapper>
@@ -49,10 +56,31 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
             <img src={amy} alt="Amy, a Co-President of CURIS" />
             <h4>Amy</h4>
             <h5>Co-President</h5>
-
           </div>
 
-          <div className="imgAndName">
+          <div className="imgAndName" onClick={toggleIsOpen2} style={{ cursor: 'pointer' }} >
+          <Wrapper>
+              {children}
+              {isOpen2 ?
+                <div onClick={toggleIsOpen2}>
+                  <>
+
+                  <div className="blueBg"></div>
+                  <div className="innerBg"></div>
+
+                  <img src={emily} alt="Emily, a Co-President of CURIS" className="bigImg"/>
+                  <div className="bigName">
+                    <h4>Emily</h4>
+                    <h5>Co-President</h5>
+                  </div>
+
+                  <p className="sideText">Amy is a senior from Ann Arbor, MI double majoring in Neuroscience and Spanish. She hopes to become a physician and work with underserved populations after graduating and going to medical school. Amy joined CURIS in order to learn about public health issues and better understand the unique obstacles that her future patients will face. Outside of CURIS, Amy does neuroscience research and volunteers as a tutor. She also enjoys playing the piano in her free time.</p>
+
+                  </>
+                </div>
+                : null}
+            </Wrapper>
+
             <img src={emily} alt="Emily, a Co-President of CURIS" />
             <h4>Emily</h4>
             <h5>Co-President</h5>

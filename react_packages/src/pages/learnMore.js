@@ -1,6 +1,7 @@
-import './App.css';
+//import './App.css';
+import './learnMore.css';
 
-const App = () => {
+const LearnMore = () => {
   return (
     <>
       <centerAllCont>
@@ -29,4 +30,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default LearnMore;
