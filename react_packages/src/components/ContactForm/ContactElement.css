@@ -1,0 +1,92 @@
+
+/* CONTACT INFO TO THE LEFT */
+
+.contactInfo {
+  float: left;
+  width: 40%;
+  margin-top: 100px;
+  padding: 150px 100px 100px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo h3 {
+  margin-bottom: 100px;
+}
+
+.contactInfo p {
+  font-size: 14pt;
+  margin: 10px;
+}
+
+/* CONTACT FORM */
+
+.formCont {
+  width: 60%;
+  float: right;
+  background-color: #eaf4f8;
+
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-top: 100px
+}
+
+.formHeader {
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.formSubHdr {
+  color: black;
+  font-size: 18pt;
+  font-weight: lighter;
+}
+
+form {
+  width: 100%;
+  height: 450px;
+  background-color: #eaf4f8;
+}
+
+.inputCont {
+  margin: 20px;
+}
+
+.inputCont label {
+  color: grey;
+}
+
+.inputCont input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 12pt;
+}
+
+.inputCont textarea {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 12pt;
+}
+
+.submitBtn {
+  background-color: white;
+  padding: 7px 30px;
+  font-size: 15pt;
+  border: none;
+  border-radius: 5px;
+  margin-left: 45%;
+}
+
+.submitBtn:hover {
+  background-color: #88b3da;
+  color: white;
+}
