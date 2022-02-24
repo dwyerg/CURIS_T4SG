@@ -9,8 +9,8 @@
     margin-bottom: 2em;
     background-color: rgb(216, 232, 252);
     color:rgb(0, 0, 0);
-    
-    
+
+
   }
 
   .GeneralQuestions {
@@ -18,14 +18,11 @@
     height: 100%;
     border-color: black;
     background-color: white;
-    justify-content: left; 
+    justify-content: left;
   }
+
+  /* Hi! Are you able to edit or remove this code block so there aren't any white bars across the website? Thank you! - Hannah */
   body{
       margin-left: 10%;
       margin-right: 10%
   }
-
-  
-
-
-
