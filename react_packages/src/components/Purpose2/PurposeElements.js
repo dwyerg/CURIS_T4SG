@@ -22,6 +22,9 @@ export const AllPurposeImgs = styled.div`
   display: flex;
   justify-content: space-around;
 `
+export const SubPurposeCont = styled.div`
+  display: flex;
+`
 export const PurposeText = styled.div`
   font-size: 14pt;
   width: 300px;
@@ -31,5 +34,6 @@ export const PurposeText = styled.div`
 export const GreyLine = styled.div`
   background-color: #DFDFDF;
   width: 3px;
-  height: 300px;
+  height: 250px;
+  margin: 0 30px;
 `
