@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import { SliderData } from './SliderData';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-const ImageSlider = ({ slides }) => {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LearnMore from '../../../pages/learnMore';
+
+const ImageSlider = ({ slides }, props) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -34,6 +37,8 @@ const ImageSlider = ({ slides }) => {
         )
       })}
     </section>
+    {/*<button onClick={() => { props.history.push('/learnMore');
+  }}>Learn More here!</button> */}
     </>
   );
 };

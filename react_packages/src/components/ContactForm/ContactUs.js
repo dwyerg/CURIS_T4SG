@@ -23,7 +23,7 @@ const ContactUs = () => {
       <div className="contactInfo">
         <h3 className="formHeader">Find Us At:</h3>
         <p>CURIS-eboard@umich.edu</p>
-        <p>@instagram</p>
+        <p>@curis.umich</p>
       </div>
 
       <div className="formCont">
