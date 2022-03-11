@@ -9,7 +9,7 @@
 
 .home_header {
   text-align: center;
-  font-size: 20pt;
+  font-size: 36pt;
   padding: 100px;
 }
 
@@ -19,7 +19,7 @@
 
 .slider {
   position: relative;
-  height: 40vh;
+  /* height: 40vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
   right: 18%;
   font-size: 3rem;
   color: #000;
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
   user-select: none;
 }
@@ -48,7 +48,7 @@
   left: 18%;
   font-size: 3rem;
   color: #000;
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
   user-select: none;
 }

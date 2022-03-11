@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { SliderData } from './SliderData';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { Button } from './Button';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LearnMore from '../../../pages/learnMore';
@@ -25,7 +26,7 @@ const ImageSlider = ({ slides }, props) => {
 
   return (
     <>
-    <div className = "home_header"><h2>Meet the Team</h2></div>
+    <div><h2 className = "home_header">See Us In Action</h2></div>
     <section className='slider'>
       <FaChevronLeft className='left-arrow' onClick={prevSlide} />
       <FaChevronRight className='right-arrow' onClick={nextSlide} />
@@ -37,8 +38,9 @@ const ImageSlider = ({ slides }, props) => {
         )
       })}
     </section>
-    {/*<button onClick={() => { props.history.push('/learnMore');
-  }}>Learn More here!</button> */}
+
+    <Button className='btn' buttonStyle='btn--outline' buttonSize='btn--large'>Learn More</Button>
+
     </>
   );
 };

@@ -39,7 +39,7 @@
 
 .formSubHdr {
   color: black;
-  font-size: 18pt;
+  font-size: 20pt;
   font-weight: lighter;
 }
 
@@ -88,4 +88,5 @@ form {
 .submitBtn:hover {
   background-color: #88b3da;
   color: white;
+  cursor: pointer;
 }

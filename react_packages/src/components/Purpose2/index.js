@@ -15,7 +15,7 @@ class Purpose2 extends Component {
       return (
         <div className="showAndHide">
 
-        <div className = "home_header"><h2>Our Values</h2></div>
+        <div><h2 className = "home_header">Our Values</h2></div>
 
         <AllPurposeImgs>
         <SubPurposeCont>
