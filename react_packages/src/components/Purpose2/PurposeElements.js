@@ -2,14 +2,15 @@ import styled from 'styled-components';
 
 export const PurposeImg = styled.div`
   text-align: center;
-  height: 400px;
+  height: 420px;
   overflow: hidden;
 
   img {
-    width: 300px;
+    width: 25vw;
     background-color: white;
     padding: 0 75px;
   }
+
   button {
     background-color: white;
     border: none;
@@ -21,13 +22,14 @@ export const PurposeImg = styled.div`
 export const AllPurposeImgs = styled.div`
   display: flex;
   justify-content: space-around;
-`
+  width: 100%;`
+
 export const SubPurposeCont = styled.div`
   display: flex;
 `
 export const PurposeText = styled.div`
   font-size: 14pt;
-  width: 300px;
+  width: 20vw;
   height: 500px;
   margin-top: 25px;
 `
