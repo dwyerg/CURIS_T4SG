@@ -15,7 +15,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
 
-          <NavLogo to='/' style={{ backgroundImage:`url(${logo})`, backgroundRepeat:'no-repeat', height: 800, backgroundSize: 'contain' }}>
+          <NavLogo to='/' style={{ backgroundImage:`url(${logo})`, backgroundRepeat:'no-repeat', height: 80, backgroundSize: 'contain' }}>
           </NavLogo>
 
           <NavMenu>

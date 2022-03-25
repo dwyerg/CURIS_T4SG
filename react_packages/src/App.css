@@ -63,3 +63,24 @@
   transition-duration: 1s;
   transform: scale(1.01);
 }
+
+@media screen and (max-width: 480px) {
+  .home_header {
+    font-size: 24pt;
+    padding: 20px;
+  }
+
+  .right-arrow {
+    right: 5px;
+    top: 40%;
+  }
+
+  .left-arrow {
+    left: 5px;
+    top: 40%;
+  }
+
+  .slide_image {
+    width: 70vw;
+  }
+}

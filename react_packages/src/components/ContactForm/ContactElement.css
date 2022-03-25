@@ -90,3 +90,21 @@ form {
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+
+  .formCont {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .formHeader {
+    font-size: 24pt;
+  }
+
+  .submitBtn {
+    margin-left: 30%;
+  }
+
+}
