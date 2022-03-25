@@ -1,6 +1,6 @@
 //import './App.css';
 import './learnMore.css';
-import claire from '../assets/claire.PNG';
+import claire from '../assets/claire.jpg';
 
 const LearnMore = () => {
   return (

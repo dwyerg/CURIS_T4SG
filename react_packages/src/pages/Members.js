@@ -2,12 +2,20 @@ import React, {useState} from 'react';
 import './StyleMembers.css';
 
 import generalMembers from '../assets/gen_members.PNG';
-import amy from '../assets/amy.PNG';
-import emily from '../assets/emily.PNG';
-import marilyn from '../assets/marilyn.PNG';
-import geeta from '../assets/geeta.PNG';
-import nishika from '../assets/nishika.PNG';
-import claire from '../assets/claire.PNG';
+import aditi from '../assets/aditi.jpg';
+import avani from '../assets/avani.jpg';
+import christina from '../assets/christina.jpeg';
+import claire from '../assets/claire.jpg';
+import daisey from '../assets/daisey.jpg';
+import emma from '../assets/emma.jpg';
+import geeta from '../assets/geeta.jpg';
+import lakshmi from '../assets/lakshmi.jpg';
+import marilyn from '../assets/marilyn.jpg';
+import nishika from '../assets/nishika.jpg';
+import samantha from '../assets/samantha.jpg';
+import srijani from '../assets/srijani.jpg';
+import vaishnavi from '../assets/vaishnavi.jpg';
+import vivian from '../assets/vivian.jpg';
 
 const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
@@ -24,7 +32,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
   return (
     <>
-      <centerAllCont>
+      <div className='centerAllCont'>
 
         <h1>Meet Our Executive Board</h1>
 
@@ -40,22 +48,24 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
                   <div className="blueBg"></div>
                   <div className="innerBg"></div>
 
-                  <img src={amy} alt="Amy, a Co-President of CURIS" className="bigImg"/>
+                  <img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImg"/>
                   <div className="bigName">
-                    <h4>Amy</h4>
-                    <h5>Co-President</h5>
+                    <h4>Marilyn Li</h4>
+                    <h5>President</h5>
                   </div>
 
-                  <p className="sideText">Amy is a senior from Ann Arbor, MI double majoring in Neuroscience and Spanish. She hopes to become a physician and work with underserved populations after graduating and going to medical school. Amy joined CURIS in order to learn about public health issues and better understand the unique obstacles that her future patients will face. Outside of CURIS, Amy does neuroscience research and volunteers as a tutor. She also enjoys playing the piano in her free time.</p>
+                  <p className="sideText">
+                    I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!
+                  </p>
 
                   </>
                 </div>
                 : null}
             </Wrapper>
 
-            <img src={amy} alt="Amy, a Co-President of CURIS" />
-            <h4>Amy</h4>
-            <h5>Co-President</h5>
+            <img src={marilyn} alt="Marilyn Li, the President of CURIS" className="smallImg" />
+            <h4>Marilyn Li</h4>
+            <h5>President</h5>
           </div>
 
           <div className="imgAndName" onClick={toggleIsOpen2} style={{ cursor: 'pointer' }} >
@@ -68,50 +78,96 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
                   <div className="blueBg"></div>
                   <div className="innerBg"></div>
 
-                  <img src={emily} alt="Emily, a Co-President of CURIS" className="bigImg"/>
+                  <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImg"/>
                   <div className="bigName">
-                    <h4>Emily</h4>
-                    <h5>Co-President</h5>
+                    <h4>Nishika Patel</h4>
+                    <h5>Internal VP</h5>
                   </div>
 
-                  <p className="sideText">Amy is a senior from Ann Arbor, MI double majoring in Neuroscience and Spanish. She hopes to become a physician and work with underserved populations after graduating and going to medical school. Amy joined CURIS in order to learn about public health issues and better understand the unique obstacles that her future patients will face. Outside of CURIS, Amy does neuroscience research and volunteers as a tutor. She also enjoys playing the piano in her free time.</p>
+                  <p className="sideText">
+                    I joined CURIS because I was passionate about public health issues and wanted to make a tangible impact in my local community through partnerships! An added bonus of joining was getting to see how local community organizations function and bring about change. My future goals are to become a physician who not only takes care of individual patients' health but also works to address the structural issues affecting population health. I love to cook and paint sunsets for fun!
+                  </p>
 
                   </>
                 </div>
                 : null}
             </Wrapper>
 
-            <img src={emily} alt="Emily, a Co-President of CURIS" />
-            <h4>Emily</h4>
-            <h5>Co-President</h5>
+            <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="smallImg"/>
+            <h4>Nishika Patel</h4>
+            <h5>Internal VP</h5>
           </div>
 
           <div className="imgAndName">
-            <img src={marilyn} alt="Marilyn, the Vice-President of CURIS" />
-            <h4>Marilyn</h4>
-            <h5>Vice-President</h5>
+            <img src={geeta} alt="Geeta Rastogi, the external vice president of CURIS" />
+            <h4>Geeta Rastogi</h4>
+            <h5>External VP</h5>
           </div>
           <div className="imgAndName">
-            <img src={geeta} alt="Geeta, the Secretary of CURIS" />
-            <h4>Geeta</h4>
+            <img src={claire} alt="Claire Gleason, the social chair of CURIS" />
+            <h4>Claire Gleason</h4>
+            <h5>Social Chair</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={srijani} alt="Srijani Sengupta, the secretary of CURIS" />
+            <h4>Srijani Sengupta</h4>
             <h5>Secretary</h5>
           </div>
           <div className="imgAndName">
-            <img src={nishika} alt="Nishika, the Treasurer and Education Chair of CURIS" />
-            <h4>Nishika</h4>
-            <h5>Treasurer/Education Chair</h5>
+            <img src={emma} alt="Emma Suh, the treasurer of CURIS" />
+            <h4>Emma Suh</h4>
+            <h5>Treasurer</h5>
+          </div>
+        </div>
+
+        <h1>Meet Our Committee Leads</h1>
+        <div className="grid">
+          <div className="imgAndName">
+            <img src={samantha} alt="Samantha Gordon, the child care network lead of CURIS" />
+            <h4>Samantha Gordon</h4>
+            <h5>Child Care Network</h5>
           </div>
           <div className="imgAndName">
-            <img src={claire} alt="Claire, the Social and Recruitment Chair of CURIS" />
-            <h4>Claire</h4>
-            <h5>Social/Recruitment Chair</h5>
+            <img src={vaishnavi} alt="Vaishnavi Krishnan, a family empowerment program lead of CURIS" />
+            <h4>Vaishnavi Krishnan</h4>
+            <h5>Family Empowerment Program</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={christina} alt="Christina Schafer, a family empowerment program lead of CURIS" />
+            <h4>Christina Schafer</h4>
+            <h5>Family Empowerment Program</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={aditi} alt="Aditi Vijendra, the fresh start clubhouse lead of CURIS" />
+            <h4>Aditi Vijendra</h4>
+            <h5>Fresh Start Clubhouse</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={vivian} alt="Vivian Chen, the Hope clinic lead of CURIS" />
+            <h4>Vivian Chen</h4>
+            <h5>Hope Clinic</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={daisey} alt="Daisey Yu, a program for multicultural health lead of CURIS" />
+            <h4>Daisey Yu</h4>
+            <h5>Program for Multicultural Health</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={lakshmi} alt="Lakshmi Meyyappan, a program for multicultural health lead of CURIS" />
+            <h4>Lakshmi Meyyappan</h4>
+            <h5>Program for Multicultural Health</h5>
+          </div>
+          <div className="imgAndName">
+            <img src={avani} alt="Avani Samandur, the Washtenaw health initiative lead of CURIS" />
+            <h4>Avani Samandur</h4>
+            <h5>Washtenaw Health Initiative</h5>
           </div>
         </div>
 
         <h1>General Members</h1>
         <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" />
 
-      </centerAllCont>
+      </div>
       <h3>2020-2021</h3>
 
     </>
