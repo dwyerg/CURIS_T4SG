@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
-  height: 50%;
+  height: 40%;
   background: white;
   display: grid;
   align-items: center;
@@ -41,30 +41,19 @@ export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
-  text-align: centerl
+  text-align: center;
+
+  a  {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid #4d84bc;
+    padding-top: 10px;
+  }
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
-  }
-`
-
-export const SidebarLink = styled(LinkS)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  text-decoration: none;
-  list-style: none;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  border-bottom: 2px solid #4d84bc;
-
-  &:hover {
-    color: white;
-    transition: 0.2s ease-in-out;
-    background-color: #4d84bc;
   }
 `
 

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactElement.css';
+import { FaInstagram, FaRegEnvelope } from 'react-icons/fa';
 
 const ContactUs = () => {
   const form = useRef();
@@ -20,11 +21,6 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="contactInfo">
-        <h3 className="formHeader">Find Us At:</h3>
-        <p>CURIS-eboard@umich.edu</p>
-        <p>@curis.umich</p>
-      </div>
 
       <div className="formCont">
         <h3 className="formHeader">Want to Know More?</h3>
@@ -50,6 +46,19 @@ const ContactUs = () => {
           <input type="submit" value="Send" className="submitBtn" />
         </form>
       </div>
+
+      <div className="contactInfo">
+        <h3 className="formHeader">Find Us At:</h3>
+        <div className="iconInline">
+          <a className="contactIcon"><FaRegEnvelope /></a>
+          <p>CURIS-eboard@umich.edu</p>
+        </div>
+        <div className="iconInline">
+          <a href="https://www.instagram.com/curis.umich" target="_blank" className="contactIcon"><FaInstagram /></a>
+          <p>@curis.umich</p>
+        </div>
+      </div>
+
     </>
   );
 };

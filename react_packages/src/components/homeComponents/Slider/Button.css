@@ -10,11 +10,19 @@
   background-color: #eaf4f8;
   font-size: 20pt;
   margin: 50px;
+  margin-left: 42%;
 }
 
 .btn:hover {
   background-color: #88b3da;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    font-size: 14pt;
+    margin-left: 25%;
+  }
 }
 
 /* .btn--outline {

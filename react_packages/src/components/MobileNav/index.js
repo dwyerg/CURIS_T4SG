@@ -1,5 +1,6 @@
 import React from 'react';
 import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink} from './MobileNavElements';
+import { NavLink, Link } from 'react-router-dom';
 
 const MobileNav = ({ isOpen, toggle }) => {
   return (
@@ -12,10 +13,10 @@ const MobileNav = ({ isOpen, toggle }) => {
       <SidebarWrapper>
 
         <SidebarMenu>
-          <SidebarLink to='learnMore' onClick={toggle}>Learn More</SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>Our Projects</SidebarLink>
-          <SidebarLink to="members" onClick={toggle}>Meet the Members</SidebarLink>
-          <SidebarLink to="FAQ" onClick={toggle}>FAQ</SidebarLink>
+          <NavLink to='learnMore' onClick={toggle}>Learn More</NavLink>
+          <NavLink to="projects" onClick={toggle}>Our Projects</NavLink>
+          <NavLink to="members" onClick={toggle}>Meet the Members</NavLink>
+          <NavLink to="FAQ" onClick={toggle}>FAQ</NavLink>
         </SidebarMenu>
 
       </SidebarWrapper>
