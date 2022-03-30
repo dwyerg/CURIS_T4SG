@@ -28,23 +28,30 @@ h3 {
   justify-content: space-between;
 }
 
-.imgAndName {
+.imgAndName2 {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-.imgAndName:hover {
+.imgAndName2:hover {
   background-color: #eaf4f8;
 }
 
-.imgAndName img {
+.imgCont {
   background-color: lightblue;
   margin: 25px;
   width: 250px;
-  height: 250px;
+  height: 270px;
   align-self: center;
   overflow: hidden;
+}
+
+.imgCont img {
+  position: relative;
+  width: 105%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 h4 {
@@ -80,17 +87,22 @@ h5 {
   z-index: 3;
 }
 
+/* .imgCont2 {
+  background-color: lightblue;
+  margin: 25px;
+  width: 250px;
+  height: 270px;
+  overflow: hidden;
+} */
+
 .bigImg {
   z-index: 3;
   position: fixed;
   top: 12%;
   right: 52%;
-  width: 300px;
 }
 
 .smallImg {
-  width: 250px;
-  height: 250px;
   overflow: hidden;
   align-self: center;
 }
