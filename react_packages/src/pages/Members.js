@@ -38,53 +38,55 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
         <div className="grid">
 
-          <div className="imgAndName" onClick={toggleIsOpen} style={{ cursor: 'pointer' }} >
+          <div className="imgAndName2" onClick={toggleIsOpen} style={{ cursor: 'pointer' }} >
           <Wrapper>
               {children}
               {isOpen ?
                 <div onClick={toggleIsOpen}>
                   <>
 
-                  <div className="blueBg"></div>
-                  <div className="innerBg"></div>
+                  <div className="blueBG"></div>
+                  <div className="innerBG">
 
-                  <img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImg"/>
-                  <div className="bigName">
-                    <h4>Marilyn Li</h4>
-                    <h5>President</h5>
+                    <div className = "imgCont2"><img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImage"/></div>
+                    <div className="bigNames">
+                      <h4>Marilyn Li</h4>
+                      <h5>President</h5>
+                    </div>
+
+                    <p className="sideTxt">
+                      I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!
+                    </p>
+
                   </div>
-
-                  <p className="sideText">
-                    I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!
-                  </p>
 
                   </>
                 </div>
                 : null}
             </Wrapper>
 
-            <img src={marilyn} alt="Marilyn Li, the President of CURIS" className="smallImg" />
+            <div className = "imgCont"><img src={marilyn} width="250px" alt="Marilyn Li, the President of CURIS" className="smallImg" /></div>
             <h4>Marilyn Li</h4>
             <h5>President</h5>
           </div>
 
-          <div className="imgAndName" onClick={toggleIsOpen2} style={{ cursor: 'pointer' }} >
+          <div className="imgAndName2" onClick={toggleIsOpen2} style={{ cursor: 'pointer' }} >
           <Wrapper>
               {children}
               {isOpen2 ?
                 <div onClick={toggleIsOpen2}>
                   <>
 
-                  <div className="blueBg"></div>
-                  <div className="innerBg"></div>
+                  <div className="blueBG"></div>
+                  <div className="innerBG"></div>
 
-                  <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImg"/>
-                  <div className="bigName">
+                  <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImage"/>
+                  <div className="bigNames">
                     <h4>Nishika Patel</h4>
                     <h5>Internal VP</h5>
                   </div>
 
-                  <p className="sideText">
+                  <p className="sideTxt">
                     I joined CURIS because I was passionate about public health issues and wanted to make a tangible impact in my local community through partnerships! An added bonus of joining was getting to see how local community organizations function and bring about change. My future goals are to become a physician who not only takes care of individual patients' health but also works to address the structural issues affecting population health. I love to cook and paint sunsets for fun!
                   </p>
 
@@ -93,28 +95,28 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
                 : null}
             </Wrapper>
 
-            <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="smallImg"/>
+            <div className = "imgCont"><img src={nishika} width="250px" alt="Nishika Patel, the internal vice president of CURIS" className="smallImg"/></div>
             <h4>Nishika Patel</h4>
             <h5>Internal VP</h5>
           </div>
 
-          <div className="imgAndName">
-            <img src={geeta} alt="Geeta Rastogi, the external vice president of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={geeta} width="250px" alt="Geeta Rastogi, the external vice president of CURIS" /></div>
             <h4>Geeta Rastogi</h4>
             <h5>External VP</h5>
           </div>
-          <div className="imgAndName">
-            <img src={claire} alt="Claire Gleason, the social chair of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={claire} width="250px" alt="Claire Gleason, the social chair of CURIS" /></div>
             <h4>Claire Gleason</h4>
             <h5>Social Chair</h5>
           </div>
-          <div className="imgAndName">
-            <img src={srijani} alt="Srijani Sengupta, the secretary of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={srijani} width="320px" alt="Srijani Sengupta, the secretary of CURIS" /></div>
             <h4>Srijani Sengupta</h4>
             <h5>Secretary</h5>
           </div>
-          <div className="imgAndName">
-            <img src={emma} alt="Emma Suh, the treasurer of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={emma} width="290px" alt="Emma Suh, the treasurer of CURIS" /></div>
             <h4>Emma Suh</h4>
             <h5>Treasurer</h5>
           </div>
@@ -122,50 +124,50 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
         <h1>Meet Our Committee Leads</h1>
         <div className="grid">
-          <div className="imgAndName">
-            <img src={samantha} alt="Samantha Gordon, the child care network lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={samantha} width="320px" alt="Samantha Gordon, the child care network lead of CURIS" /></div>
             <h4>Samantha Gordon</h4>
             <h5>Child Care Network</h5>
           </div>
-          <div className="imgAndName">
-            <img src={vaishnavi} alt="Vaishnavi Krishnan, a family empowerment program lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={vaishnavi} width="320px" alt="Vaishnavi Krishnan, a family empowerment program lead of CURIS" /></div>
             <h4>Vaishnavi Krishnan</h4>
             <h5>Family Empowerment Program</h5>
           </div>
-          <div className="imgAndName">
-            <img src={christina} alt="Christina Schafer, a family empowerment program lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={christina} width="320px" alt="Christina Schafer, a family empowerment program lead of CURIS" /></div>
             <h4>Christina Schafer</h4>
             <h5>Family Empowerment Program</h5>
           </div>
-          <div className="imgAndName">
-            <img src={aditi} alt="Aditi Vijendra, the fresh start clubhouse lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={aditi} width="320px" alt="Aditi Vijendra, the fresh start clubhouse lead of CURIS" /></div>
             <h4>Aditi Vijendra</h4>
             <h5>Fresh Start Clubhouse</h5>
           </div>
-          <div className="imgAndName">
-            <img src={vivian} alt="Vivian Chen, the Hope clinic lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={vivian} width="320px" alt="Vivian Chen, the Hope clinic lead of CURIS" /></div>
             <h4>Vivian Chen</h4>
             <h5>Hope Clinic</h5>
           </div>
-          <div className="imgAndName">
-            <img src={daisey} alt="Daisey Yu, a program for multicultural health lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={daisey} width="320px" alt="Daisey Yu, a program for multicultural health lead of CURIS" /></div>
             <h4>Daisey Yu</h4>
             <h5>Program for Multicultural Health</h5>
           </div>
-          <div className="imgAndName">
-            <img src={lakshmi} alt="Lakshmi Meyyappan, a program for multicultural health lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={lakshmi} width="320px" alt="Lakshmi Meyyappan, a program for multicultural health lead of CURIS" /></div>
             <h4>Lakshmi Meyyappan</h4>
             <h5>Program for Multicultural Health</h5>
           </div>
-          <div className="imgAndName">
-            <img src={avani} alt="Avani Samandur, the Washtenaw health initiative lead of CURIS" />
+          <div className="imgAndName2">
+            <div className = "imgCont"><img src={avani} width="320px" alt="Avani Samandur, the Washtenaw health initiative lead of CURIS" /></div>
             <h4>Avani Samandur</h4>
             <h5>Washtenaw Health Initiative</h5>
           </div>
         </div>
 
         <h1>General Members</h1>
-        <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" />
+        <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" className="generalMembers" />
 
       </div>
       <h3>2020-2021</h3>
