@@ -1,11 +1,19 @@
+import group1 from '../../../assets/group_1.jpg';
+import group2 from '../../../assets/group_2.JPG';
+import group3 from '../../../assets/group3.JPG';
+import group4 from '../../../assets/group4.jpg';
+
 export const SliderData = [
   {
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60'
+    image: group1
   },
   {
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60'
+    image: group2
   },
   {
-    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60'
+    image: group3
+  },
+  {
+    image: group4
   },
 ]

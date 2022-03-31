@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { PurposeImg, AllPurposeImgs, PurposeText, GreyLine } from './PurposeElements';
+import { PurposeImg, AllPurposeImgs, PurposeText, GreyLine, SubPurposeCont } from './PurposeElements';
 import advocacyImg from '../../assets/advocacy.PNG'
 import supportImg from '../../assets/support.PNG'
 import aidImg from '../../assets/aid.PNG'
@@ -15,9 +15,10 @@ class Purpose2 extends Component {
       return (
         <div className="showAndHide">
 
-        <div className = "home_header"><h2>Our Values</h2></div>
+        <div><h2 className = "home_header">Our Values</h2></div>
 
         <AllPurposeImgs>
+        <SubPurposeCont>
           <PurposeImg>
               <button onClick={() => {
                 this.setState({ visible: !this.state.visible });
@@ -47,6 +48,7 @@ class Purpose2 extends Component {
               </button>
               {this.state.visible ? <PurposeText>We strive to learn from different people, experiences, and perspectives, and are dedicated to the concepts of cultural humility and consistent self-evaluation.</PurposeText> : null}
           </PurposeImg>
+        </SubPurposeCont>
         </AllPurposeImgs>
 
         </div>

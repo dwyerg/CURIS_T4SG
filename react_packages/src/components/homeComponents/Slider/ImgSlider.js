@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
 import { SliderData } from './SliderData';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { Button } from './Button';
 
-const ImageSlider = ({ slides }) => {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LearnMore from '../../../pages/learnMore';
+
+const ImageSlider = ({ slides }, props) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -22,7 +26,7 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <>
-    <div className = "home_header"><h2>Meet the Team</h2></div>
+    <div><h2 className = "home_header">See Us In Action</h2></div>
     <section className='slider'>
       <FaChevronLeft className='left-arrow' onClick={prevSlide} />
       <FaChevronRight className='right-arrow' onClick={nextSlide} />
@@ -34,6 +38,9 @@ const ImageSlider = ({ slides }) => {
         )
       })}
     </section>
+
+    <Button className='btn' buttonStyle='btn--outline' buttonSize='btn--large'>Learn More</Button>
+
     </>
   );
 };
