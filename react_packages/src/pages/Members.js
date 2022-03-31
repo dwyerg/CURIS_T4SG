@@ -45,18 +45,20 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
                 <div onClick={toggleIsOpen}>
                   <>
 
-                  <div className="blueBg"></div>
-                  <div className="innerBg"></div>
+                  <div className="blueBG"></div>
+                  <div className="innerBG">
 
-                  <div className = "imgCont2"><img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImg"/></div>
-                  <div className="bigName">
-                    <h4>Marilyn Li</h4>
-                    <h5>President</h5>
+                    <div className = "imgCont2"><img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImage"/></div>
+                    <div className="bigNames">
+                      <h4>Marilyn Li</h4>
+                      <h5>President</h5>
+                    </div>
+
+                    <p className="sideTxt">
+                      I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!
+                    </p>
+
                   </div>
-
-                  <p className="sideText">
-                    I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!
-                  </p>
 
                   </>
                 </div>
@@ -75,16 +77,16 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
                 <div onClick={toggleIsOpen2}>
                   <>
 
-                  <div className="blueBg"></div>
-                  <div className="innerBg"></div>
+                  <div className="blueBG"></div>
+                  <div className="innerBG"></div>
 
-                  <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImg"/>
-                  <div className="bigName">
+                  <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImage"/>
+                  <div className="bigNames">
                     <h4>Nishika Patel</h4>
                     <h5>Internal VP</h5>
                   </div>
 
-                  <p className="sideText">
+                  <p className="sideTxt">
                     I joined CURIS because I was passionate about public health issues and wanted to make a tangible impact in my local community through partnerships! An added bonus of joining was getting to see how local community organizations function and bring about change. My future goals are to become a physician who not only takes care of individual patients' health but also works to address the structural issues affecting population health. I love to cook and paint sunsets for fun!
                   </p>
 
@@ -165,7 +167,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
         </div>
 
         <h1>General Members</h1>
-        <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" />
+        <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" className="generalMembers" />
 
       </div>
       <h3>2020-2021</h3>

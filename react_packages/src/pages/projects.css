@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   text-align: center;
   font-size: 28pt;
   margin: 25px 0 50px 0;
@@ -11,7 +11,7 @@ h3 {
   font-size: 36pt;
   margin: 25px 25% 100px 0;
   color: #1c4587;
-}
+} */
 
 .rowC {
   display: flex;
@@ -55,7 +55,7 @@ h3 {
   margin: 25px;
 }
 
-h4 {
+/* h4 {
   font-size: 24pt;
   color: #1c4587;
   text-align: center;
@@ -66,7 +66,7 @@ h5 {
   color: #88b3e1;
   text-align: center;
   margin-bottom: 10px;
-}
+} */
 
 .blueBg {
   background-color: #d2ebf4;
