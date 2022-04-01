@@ -1,19 +1,5 @@
-h1 {
-  text-align: center;
-  font-size: 28pt;
-  max-width: 80%;
-  color: black;
-}
-
 h2 {
   color: black
-}
-
-h3 {
-  float: right;
-  font-size: 36pt;
-  margin: 25px 25% 100px 0;
-  color: #1c4587;
 }
 
 .rowC {
@@ -65,11 +51,4 @@ h4 {
   text-align: center;
   font-weight: normal;
   float: left;
-}
-
-h5 {
-  font-size: 20pt;
-  color: #88b3e1;
-  text-align: center;
-  margin-bottom: 10px;
 }
