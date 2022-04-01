@@ -50,7 +50,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
                     <div className = "imgCont2"><img src={marilyn} alt="Marilyn Li, the President of CURIS" className="bigImage"/></div>
                     <div className="bigNames">
-                      <h4>Marilyn Li</h4>
+                      <h4 className="h4Members">Marilyn Li</h4>
                       <h5>President</h5>
                     </div>
 
@@ -66,7 +66,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
             </Wrapper>
 
             <div className = "imgCont"><img src={marilyn} width="250px" alt="Marilyn Li, the President of CURIS" className="smallImg" /></div>
-            <h4>Marilyn Li</h4>
+            <h4 className="h4Members">Marilyn Li</h4>
             <h5>President</h5>
           </div>
 
@@ -82,7 +82,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
                   <img src={nishika} alt="Nishika Patel, the internal vice president of CURIS" className="bigImage"/>
                   <div className="bigNames">
-                    <h4>Nishika Patel</h4>
+                    <h4 className="h4Members">Nishika Patel</h4>
                     <h5>Internal VP</h5>
                   </div>
 
@@ -96,28 +96,28 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
             </Wrapper>
 
             <div className = "imgCont"><img src={nishika} width="250px" alt="Nishika Patel, the internal vice president of CURIS" className="smallImg"/></div>
-            <h4>Nishika Patel</h4>
+            <h4 className="h4Members">Nishika Patel</h4>
             <h5>Internal VP</h5>
           </div>
 
           <div className="imgAndName2">
             <div className = "imgCont"><img src={geeta} width="250px" alt="Geeta Rastogi, the external vice president of CURIS" /></div>
-            <h4>Geeta Rastogi</h4>
+            <h4 className="h4Members">Geeta Rastogi</h4>
             <h5>External VP</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={claire} width="250px" alt="Claire Gleason, the social chair of CURIS" /></div>
-            <h4>Claire Gleason</h4>
+            <h4 className="h4Members">Claire Gleason</h4>
             <h5>Social Chair</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={srijani} width="320px" alt="Srijani Sengupta, the secretary of CURIS" /></div>
-            <h4>Srijani Sengupta</h4>
+            <h4 className="h4Members">Srijani Sengupta</h4>
             <h5>Secretary</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={emma} width="290px" alt="Emma Suh, the treasurer of CURIS" /></div>
-            <h4>Emma Suh</h4>
+            <h4 className="h4Members">Emma Suh</h4>
             <h5>Treasurer</h5>
           </div>
         </div>
@@ -126,42 +126,42 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
         <div className="grid">
           <div className="imgAndName2">
             <div className = "imgCont"><img src={samantha} width="320px" alt="Samantha Gordon, the child care network lead of CURIS" /></div>
-            <h4>Samantha Gordon</h4>
+            <h4 className="h4Members">Samantha Gordon</h4>
             <h5>Child Care Network</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={vaishnavi} width="320px" alt="Vaishnavi Krishnan, a family empowerment program lead of CURIS" /></div>
-            <h4>Vaishnavi Krishnan</h4>
+            <h4 className="h4Members">Vaishnavi Krishnan</h4>
             <h5>Family Empowerment Program</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={christina} width="320px" alt="Christina Schafer, a family empowerment program lead of CURIS" /></div>
-            <h4>Christina Schafer</h4>
+            <h4 className="h4Members">Christina Schafer</h4>
             <h5>Family Empowerment Program</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={aditi} width="320px" alt="Aditi Vijendra, the fresh start clubhouse lead of CURIS" /></div>
-            <h4>Aditi Vijendra</h4>
+            <h4 className="h4Members">Aditi Vijendra</h4>
             <h5>Fresh Start Clubhouse</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={vivian} width="320px" alt="Vivian Chen, the Hope clinic lead of CURIS" /></div>
-            <h4>Vivian Chen</h4>
+            <h4 className="h4Members">Vivian Chen</h4>
             <h5>Hope Clinic</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={daisey} width="320px" alt="Daisey Yu, a program for multicultural health lead of CURIS" /></div>
-            <h4>Daisey Yu</h4>
+            <h4 className="h4Members">Daisey Yu</h4>
             <h5>Program for Multicultural Health</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={lakshmi} width="320px" alt="Lakshmi Meyyappan, a program for multicultural health lead of CURIS" /></div>
-            <h4>Lakshmi Meyyappan</h4>
+            <h4 className="h4Members">Lakshmi Meyyappan</h4>
             <h5>Program for Multicultural Health</h5>
           </div>
           <div className="imgAndName2">
             <div className = "imgCont"><img src={avani} width="320px" alt="Avani Samandur, the Washtenaw health initiative lead of CURIS" /></div>
-            <h4>Avani Samandur</h4>
+            <h4 className="h4Members">Avani Samandur</h4>
             <h5>Washtenaw Health Initiative</h5>
           </div>
         </div>

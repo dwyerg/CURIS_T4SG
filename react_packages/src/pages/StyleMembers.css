@@ -54,10 +54,11 @@ h3 {
   transform: translateY(-50%);
 }
 
-h4 {
+.h4Members {
   font-size: 24pt;
   color: #1c4587;
   text-align: center;
+  font-weight: bold;
 }
 
 h5 {
@@ -187,7 +188,7 @@ h5 {
     margin: 25px 10% 100px 0;
   }
 
-  h4 {
+  .h4Members {
     font-size: 18pt;
     margin: 5px;
   }
