@@ -1,6 +1,7 @@
 //import './App.css';
 import './learnMore.css';
-import escape_room from '../assets/escape_room.png';
+//import escape_room from '../assets/escape_room.png';
+import escape_room from '../assets/claire.jpg';
 import claire from '../assets/claire.jpg';
 import ContactForm from '../components/ContactForm/ContactUs.js';
 
@@ -31,7 +32,7 @@ const LearnMore = () => {
         <div>
           <div className="rectangle">
             <div className="imgRect"><img src={claire} alt="claire" style={{float: "right"}} className="img right"/></div>
-            <h2 className="hh2 rect">Attendance</h2>            
+            <h2 className="hh2 rect">Attendance</h2>
             <div class="vl" style={{float: "left"}}></div>
             <div className="hh4 rect">At <b>general body meetings, committee meetings</b> (every other week, respectively) and our <b>social events</b></div>
           </div>
