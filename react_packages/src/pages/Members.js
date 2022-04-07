@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './StyleMembers.css';
 import Lightbox from '../components/homeComponents/Lightbox';
+import Lightbox2 from '../components/homeComponents/Lightbox2';
 
 import generalMembers from '../assets/gen_members.PNG';
 import aditi from '../assets/aditi.jpg';
@@ -33,10 +34,11 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
 
   return (
     <>
-      {/* <Lightbox /> */}
+      <Lightbox />
+      {/*<Lightbox2 /> */}
 
       <div className='centerAllCont'>
-
+      {/*
         <h1>Meet Our Executive Board</h1>
 
         <div className="grid">
@@ -168,7 +170,7 @@ const Members = ({children, src, alt, Wrapper = 'div'}) => {
             <h5>Washtenaw Health Initiative</h5>
           </div>
         </div>
-
+         */}
         <h1>General Members</h1>
         <img src={generalMembers} alt="Zoom screenshot of all of the general members in CURIS!" className="generalMembers" />
 
