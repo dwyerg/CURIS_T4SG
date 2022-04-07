@@ -1,42 +1,96 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
+
+html * {
+  font-family: Nunito, sans-serif;
+}
+
+centerAllCont {  /*do i wanna resize fonts with em*/
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hh1 {
   text-align: center;
-  font-size: 28pt;
+  font-size: 7vh;
+  border-bottom: 0px;
   margin: 25px 0 25px 0;
   padding: 20px;
   width: 80%;
-  border-bottom: 0px;
 }
 
-h2 {
+.hh1.becoming {
+  margin: 25px 0 0 0;
+  padding: 20px 20px 10px 20px;
+}
+
+.hh2 {
   text-align: center;
-  font-size: 8vh;
+  color:#26428b;
 }
 
-h4 {
-  font-size: 16pt;
-  margin-bottom: 20px;
+.hh2.col {
+  font-size: 7vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: center;
 }
-  
-centerAllCont {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+
+.hh2.col.white {
+  color:white;
 }
-  
-#w {
+
+.hh2.rect {
+  font-size: 5.5vh;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  text-align: left;
+  padding-left: 2vw;
+}
+
+.hh3 {
+  font-size: 3.5vh;
+  color:#26428b;
+  font-weight: normal;
+}
+
+.hh3.col {
+  text-align: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.hh3.col.white {
   color: white;
 }
 
-#b2 {
-  color: #26428b;
+.hh4 {
+  font-size: 3vh;
+  margin-bottom: 5vh;
+  color:#26428b;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.hh4.rect {
+  text-align: left;
+  padding-left: 2vw;
+  font-size: 4vh;
+  font-weight: normal;
+  line-height: 1.3em;
 }
 
 .column {
   float: left;
   width: 33.33%; 
   padding: 1EM; 
-  height: 45vh;  
+  height: 37vh;  
+}
+
+.row {
+  margin-left: 9%;
+  margin-right: 9%;
 }
   
   /* Clear floats after the columns */
@@ -46,18 +100,77 @@ centerAllCont {
   clear: both;
 }
 
-#r1 {
-  width: 66.6%;
-  right: 0px;
+.rectangle {
+  margin-bottom: 5vh;
+  height: 27vh;
+  width: 70vw; /*why doesn't setting width to 100% work?*/
+  align-items: center;
   background-color: #e6f2f6;
 }
 
-.rectangle {
-  margin-bottom: 5vh;
-  height: 23vh;
+img {
+  object-fit: contain; /*do i want contain or cover? do i want img width to b consistent*/
 }
 
-.img {
-  height: 50vh;
-  position: absolute;
+img.left {
+  height: 28vh;
+  margin-right: 2vw;
+  float: left;
 }
+
+img.right {
+  height: 28vh;
+  float: right;
+  margin-left: 2vw;
+}
+
+img.final {
+  width: 79vw;
+}
+
+.vl {
+  width: 1vh;
+  height: 13vh;
+  margin-left: 2.5vw;
+  margin-right: 1vw;
+  background-color:#26428b;
+}
+
+.vl.collab {
+  margin-left: .9vw;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  align-items: center;
+}
+
+/* Make the image responsive */
+.container img {
+  align-items: center;
+  width: 79vw;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  background-color: white;
+  color: #26428b;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.container .btn:hover {
+  background-color: #e6f2f6;
+}
+
+@media screen and (max-width: 480px) {}
