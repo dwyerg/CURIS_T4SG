@@ -21,6 +21,7 @@ function Lightbox() {
 
     <SRLWrapper>
       <div className='centerAllCont'>
+
         <h1>Meet Our Executive Board</h1>
         <div className="grid">
           <div className="imgAndName2">
