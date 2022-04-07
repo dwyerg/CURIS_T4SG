@@ -1,7 +1,7 @@
 //import './App.css';
 import './learnMore.css';
 //import escape_room from '../assets/escape_room.png';
-import escape_room from '../assets/claire.jpg';
+import escape_room from '../assets/home_bg.png';
 import claire from '../assets/claire.jpg';
 import ContactForm from '../components/ContactForm/ContactUs.js';
 
