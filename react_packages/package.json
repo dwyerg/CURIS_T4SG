@@ -1,6 +1,7 @@
 {
   "name": "react_packages",
   "version": "0.1.0",
+  "homepage": "https://dwyerg.github.io/CURIS_T4SG/"
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
