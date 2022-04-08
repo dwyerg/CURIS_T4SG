@@ -1,5 +1,6 @@
 import './projects.css';
 import React, {useState} from 'react';
+import ContactForm from '../components/ContactForm/ContactUs';
 //import App from './App';
 import whi from '../assets/whi.png'
 import safehouse from '../assets/safehouse.png'
@@ -39,9 +40,15 @@ const Projects = () => {
   
     render() {
       const {projArray} = this.state;
-      return (<div class='block'>
+      console.log(projArray)
+      return (
+      <div class='block'>
           <div onClick={(e)=>this.togglePanel(e)} className='header'>
-              <h4>{this.props.yearStart}-{this.props.yearEnd}</h4></div>
+              <div className='yearBlock'><h4 className='year'>{this.props.yearStart}-{this.props.yearEnd}</h4></div>
+              {!this.state.open ? (
+                <div className='imgBlock'><img src={projArray[0].props.imgUrl} className='headerImg'></img></div>
+              ) : null}
+          </div>
           {this.state.open ? (
               <div className='content'>
                   {projArray.map((project) => {
@@ -98,9 +105,10 @@ const Projects = () => {
 
   return  (
   <div>
-    <div><h2>Our Projects</h2></div>
+    <div><h2 className='H2'>Our Projects</h2></div>
     <Collapsible yearStart = "2020" yearEnd = "2021" projects = {projectsList2021}></Collapsible>
     <Collapsible yearStart = "2019" yearEnd = "2020" projects = {projectsList1920}></Collapsible>
+    <ContactForm></ContactForm>
   </div>
   );
 }
