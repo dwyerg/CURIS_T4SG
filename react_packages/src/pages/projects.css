@@ -2,8 +2,41 @@ h2 {
   color: black
 }
 
+.H2 {
+  text-align: center;
+  color: black;
+  font-size: 7vh;
+  border-bottom: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.year {
+  max-width: 50%;
+}
+
+.yearBlock {
+  float: left;
+  width: 50%;
+}
+
+.imgBlock {
+  float: right;
+  width: 50%;
+}
+
+.headerImg {
+  padding: 20px;
+  vertical-align: middle;
+  max-width: 50%;
+  max-height: 200px;
+}
+
 .rowC {
-  background-color: #d0eaf3d4;
+  background-color: #e6f2f6;
   display: flex;
   flex-direction: row;
   padding: 30px;
@@ -12,42 +45,48 @@ h2 {
 }
 
 .imgLeft {
-  width: 400px;
+  max-width: 40%;
   height: auto;
   padding: 20px;
   float: left;
 }
 
 .imgRight {
-  width: 400px;
+  max-width: 40%;
   height: auto;
   padding: 20px;
   float: right;
 }
 
 .left {
-  max-width: 50%;
+  width: 60%;
   height: auto;
   padding: 20px;
   float: left;
+  text-align: justify;
 }
 
 .right {
-  max-width: 50%;
+  width: 60%;
   height: auto;
   padding: 20px;
   float: right;
+  text-align: justify;
 }
 
 .block {
+  background-color: #e6f2f6;
   display: flex;
   flex-direction: column;
+  padding: 20px;
   margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h4 {
-  font-size: 30pt;
-  color:#03a5fc;
+  font-size: 35pt;
+  color: black;
   text-align: center;
   font-weight: normal;
   float: left;
