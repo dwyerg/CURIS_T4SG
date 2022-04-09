@@ -1,0 +1,93 @@
+h2 {
+  color: black
+}
+
+.H2 {
+  text-align: center;
+  color: black;
+  font-size: 7vh;
+  border-bottom: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.year {
+  max-width: 50%;
+}
+
+.yearBlock {
+  float: left;
+  width: 50%;
+}
+
+.imgBlock {
+  float: right;
+  width: 50%;
+}
+
+.headerImg {
+  padding: 20px;
+  vertical-align: middle;
+  max-width: 50%;
+  max-height: 200px;
+}
+
+.rowC {
+  background-color: #e6f2f6;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgLeft {
+  max-width: 40%;
+  height: auto;
+  padding: 20px;
+  float: left;
+}
+
+.imgRight {
+  max-width: 40%;
+  height: auto;
+  padding: 20px;
+  float: right;
+}
+
+.left {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  float: left;
+  text-align: justify;
+}
+
+.right {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  float: right;
+  text-align: justify;
+}
+
+.block {
+  background-color: #e6f2f6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  font-size: 35pt;
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  float: left;
+}
