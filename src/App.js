@@ -25,6 +25,7 @@ function App() {
     <Navbar toggle={toggle} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/members" element={<Members />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/learnmore" element={<LearnMore />} />

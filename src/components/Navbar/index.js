@@ -20,6 +20,9 @@ const Navbar = ({ toggle }) => {
 
           <NavMenu>
 
+          ``<NavBtn>
+            ``<NavBtnLink to='home'>Home</NavBtnLink>
+          ``</NavBtn>
             <NavBtn>
               <NavBtnLink to='learnMore'>Learn More</NavBtnLink>
             </NavBtn>
