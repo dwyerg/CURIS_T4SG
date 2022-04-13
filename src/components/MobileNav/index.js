@@ -13,6 +13,7 @@ const MobileNav = ({ isOpen, toggle }) => {
       <SidebarWrapper>
 
         <SidebarMenu>
+          <NavLink to='/' onClick={toggle}>Home</NavLink>
           <NavLink to='learnMore' onClick={toggle}>Learn More</NavLink>
           <NavLink to="projects" onClick={toggle}>Our Projects</NavLink>
           <NavLink to="members" onClick={toggle}>Meet the Members</NavLink>
