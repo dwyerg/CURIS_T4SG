@@ -1,6 +1,6 @@
 //import './App.css';
 import './learnMore.css';
-import escape_room from '../assets/escape_room.png';
+// import escape_room from '../assets/escape_room.png';
 import group_1 from '../assets/group_1.jpg';
 import group_2 from '../assets/group_2.JPG';
 import group3 from '../assets/group3.JPG';
