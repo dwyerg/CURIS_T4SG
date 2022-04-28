@@ -53,7 +53,7 @@ const LearnMore = () => {
         </div>
 
         <div className="container">
-//           <img src={escape_room} alt="Members at an escape room together"/>
+          {/* <img src={escape_room} alt="Members at an escape room together"/> */}
           <a href="#ContactForm">
             <button className="btn">Join Us!</button>
           </a>
