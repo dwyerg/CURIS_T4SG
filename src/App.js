@@ -20,17 +20,18 @@ function App() {
   };
 
   return (
-    <Router>
-    <MobileNav isOpen={isOpen} toggle={toggle} />
-    <Navbar toggle={toggle} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/members" element={<Members />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/learnmore" element={<LearnMore />} />
-        <Route path="/faq" element={<FAQ />} />
-      </Routes>
-    </Router>
+      <Router>
+      <MobileNav isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/members" element={<Members />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/learnmore" element={<LearnMore />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+        <Home />
+      </Router>
   );
 }
 
