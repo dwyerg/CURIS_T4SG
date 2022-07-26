@@ -24,11 +24,11 @@ function App() {
       <MobileNav isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/members" element={<Members />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/learnmore" element={<LearnMore />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/CURIS_T4SG" element={<Home />} />
+          <Route path="/CURIS_T4SG/members" element={<Members />} />
+          <Route path="/CURIS_T4SG/projects" element={<Projects />} />
+          <Route path="/CURIS_T4SG/learnmore" element={<LearnMore />} />
+          <Route path="/CURIS_T4SG/faq" element={<FAQ />} />
         </Routes>
         <Home />
       </Router>
