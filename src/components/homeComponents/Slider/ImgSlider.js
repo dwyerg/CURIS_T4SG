@@ -34,7 +34,11 @@ const ImageSlider = ({ slides }, props) => {
         return (
           <div className={index === current ? 'slide active' : 'slide'} key={index}>
             {index === current && (<img src={slide.image} alt = 'Team images' className='slide_image'/>)}
-          </div>
+            </div>
+                      /*<div className="imgAndName2">
+            <div className = "imgCont"><img src={marilyn} width="250px" alt="I joined CURIS my freshman year because I was interested in public health, specifically in working with community partners in the Washtenaw County area to create sustainable solutions! I hope to become a physician who works to promote health equity and improve the US healthcare system. I haven't completely decided how I'll do this in the future, but I am interested in health policy, community interventions, and working at community health centers. Some of my hobbies include taking care of houseplants and trying new foods with friends!" className="smallImg" /></div>
+            <h4 className="h4Members">Marilyn Li</h4>
+            <h5>President</h5>*/
         )
       })}
     </section>

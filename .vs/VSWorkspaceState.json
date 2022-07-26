@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\homeComponents",
+    "\\src\\components\\homeComponents\\Lightbox",
+    "\\src\\components\\homeComponents\\Slider",
+    "\\src\\components\\Navbar",
+    "\\src\\components\\ParallaxQuote",
+    "\\src\\components\\Purpose2",
+    "\\src\\pages"
+  ],
+  "SelectedNode": "\\src\\components\\homeComponents\\Lightbox\\index.js",
+  "PreviewInSolutionExplorer": false
+}
