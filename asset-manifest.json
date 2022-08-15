@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CURIS_T4SG/static/css/main.77c6623a.chunk.css",
-    "main.js": "/CURIS_T4SG/static/js/main.ea01e00d.chunk.js",
-    "main.js.map": "/CURIS_T4SG/static/js/main.ea01e00d.chunk.js.map",
+    "main.js": "/CURIS_T4SG/static/js/main.c1873454.chunk.js",
+    "main.js.map": "/CURIS_T4SG/static/js/main.c1873454.chunk.js.map",
     "runtime-main.js": "/CURIS_T4SG/static/js/runtime-main.c32a8472.js",
     "runtime-main.js.map": "/CURIS_T4SG/static/js/runtime-main.c32a8472.js.map",
-    "static/js/2.7a0c70a0.chunk.js": "/CURIS_T4SG/static/js/2.7a0c70a0.chunk.js",
-    "static/js/2.7a0c70a0.chunk.js.map": "/CURIS_T4SG/static/js/2.7a0c70a0.chunk.js.map",
+    "static/js/2.b2fcad8d.chunk.js": "/CURIS_T4SG/static/js/2.b2fcad8d.chunk.js",
+    "static/js/2.b2fcad8d.chunk.js.map": "/CURIS_T4SG/static/js/2.b2fcad8d.chunk.js.map",
     "static/js/3.867d870b.chunk.js": "/CURIS_T4SG/static/js/3.867d870b.chunk.js",
     "static/js/3.867d870b.chunk.js.map": "/CURIS_T4SG/static/js/3.867d870b.chunk.js.map",
     "index.html": "/CURIS_T4SG/index.html",
     "static/css/main.77c6623a.chunk.css.map": "/CURIS_T4SG/static/css/main.77c6623a.chunk.css.map",
-    "static/js/2.7a0c70a0.chunk.js.LICENSE.txt": "/CURIS_T4SG/static/js/2.7a0c70a0.chunk.js.LICENSE.txt",
+    "static/js/2.b2fcad8d.chunk.js.LICENSE.txt": "/CURIS_T4SG/static/js/2.b2fcad8d.chunk.js.LICENSE.txt",
     "static/media/BAGfoundation.8cc18f94.png": "/CURIS_T4SG/static/media/BAGfoundation.8cc18f94.png",
     "static/media/aditi.4477ae48.jpg": "/CURIS_T4SG/static/media/aditi.4477ae48.jpg",
     "static/media/advocacy.82d93ac0.PNG": "/CURIS_T4SG/static/media/advocacy.82d93ac0.PNG",
@@ -29,7 +29,7 @@
     "static/media/group4.f048cc75.jpg": "/CURIS_T4SG/static/media/group4.f048cc75.jpg",
     "static/media/group_1.a8881de0.jpg": "/CURIS_T4SG/static/media/group_1.a8881de0.jpg",
     "static/media/group_2.8e2430e2.JPG": "/CURIS_T4SG/static/media/group_2.8e2430e2.JPG",
-    "static/media/home_bg.c61f11ce.png": "/CURIS_T4SG/static/media/home_bg.c61f11ce.png",
+    "static/media/home_bg.c3cbcca6.png": "/CURIS_T4SG/static/media/home_bg.c3cbcca6.png",
     "static/media/housingresearch.ceed6dbe.png": "/CURIS_T4SG/static/media/housingresearch.ceed6dbe.png",
     "static/media/jobsecresearch.9e854a64.png": "/CURIS_T4SG/static/media/jobsecresearch.9e854a64.png",
     "static/media/lakshmi.c8d1138c.jpg": "/CURIS_T4SG/static/media/lakshmi.c8d1138c.jpg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c32a8472.js",
-    "static/js/2.7a0c70a0.chunk.js",
+    "static/js/2.b2fcad8d.chunk.js",
     "static/css/main.77c6623a.chunk.css",
-    "static/js/main.ea01e00d.chunk.js"
+    "static/js/main.c1873454.chunk.js"
   ]
 }
