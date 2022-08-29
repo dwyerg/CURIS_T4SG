@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\ContactForm",
     "\\src\\components\\homeComponents",
     "\\src\\components\\homeComponents\\Lightbox",
-    "\\src\\components\\homeComponents\\Slider",
+    "\\src\\components\\MobileNav",
     "\\src\\components\\Navbar",
-    "\\src\\components\\ParallaxQuote",
     "\\src\\components\\Purpose2",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\homeComponents\\Lightbox\\index.js",
+  "SelectedNode": "\\src\\pages\\Faq.js",
   "PreviewInSolutionExplorer": false
 }

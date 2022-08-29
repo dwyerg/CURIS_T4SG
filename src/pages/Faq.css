@@ -1,8 +1,7 @@
-
-/*body {
+body {
   margin-left: 15%;
   margin-right: 15%;
-} */
+} 
 
 
 .Title {
@@ -11,9 +10,9 @@
   align-content: center;
   display: flex;
   align-items: center;
-  height: 7vh;
+  height: 15vh;
   padding: 1em;
-  margin-bottom: 2em;
+  /*margin-left: 1em;*/
   background-color: rgb(216, 232, 252);
   color:rgb(0, 0, 0);
   text-align: center;

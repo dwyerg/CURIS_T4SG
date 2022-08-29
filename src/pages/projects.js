@@ -108,7 +108,7 @@ const Projects = () => {
     <div><h2 className='H2'>Our Projects</h2></div>
     <Collapsible yearStart = "2020" yearEnd = "2021" projects = {projectsList2021}></Collapsible>
     <Collapsible yearStart = "2019" yearEnd = "2020" projects = {projectsList1920}></Collapsible>
-    <ContactForm></ContactForm>
+    //<ContactForm></ContactForm>
   </div>
   );
 }

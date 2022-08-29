@@ -82,7 +82,7 @@ centerAllCont {  /*do i wanna resize fonts with em*/
 }
 
 .column {
-  width: 33.33%; 
+  width: 25%; 
   padding: 1EM;   
   padding-bottom: 0;
   display: table-cell;
@@ -104,7 +104,7 @@ centerAllCont {  /*do i wanna resize fonts with em*/
 
 .rectangle {
   margin-bottom: 5vh;
-  height: 28vh;
+  height: 35vh;
   width: 70vw; /*why doesn't setting width to 100% work?*/
   align-items: center;
   background-color: #e6f2f6;
@@ -115,13 +115,13 @@ img {
 }
 
 img.left {
-  height: 29vh;
+  height: 35vh;
   margin-right: 2vw;
   float: left;
 }
 
 img.right {
-  height: 29vh;
+  height: 35vh;
   float: right;
   margin-left: 2vw;
 }

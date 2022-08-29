@@ -24,13 +24,12 @@ function App() {
       <MobileNav isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/members" element={<Members />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/learnmore" element={<LearnMore />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>
-        <Home />
       </Router>
   );
 }
